@@ -1,0 +1,28 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: #de678d;
+  height: 50px;
+}
+li {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.underline {
+  text-decoration: none;
+}
+
+.underline:hover {
+  background-color: #e7919d;
+}
+li:hover {
+  color: #de678d;
+}
